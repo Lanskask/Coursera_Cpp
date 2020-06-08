@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(Coursera_Cpp)
+
+set(CMAKE_CXX_STANDARD 17)
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Werror -Wno-long-long -pedantic -fsanitize=address -g3")
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Werror -Wno-long-long -pedantic -fsanitize=bounds -g3")
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Werror -pedantic")
+
+add_subdirectory(Week2)
+add_subdirectory(Week3)
+add_subdirectory(Week4)
+
+add_executable(Basics Basics.cpp)
+add_executable(containers containers.cpp)
+add_executable(if_else if_else.cpp)
+add_executable(in_out in_out.cpp)
+add_executable(initial initial.cpp)
+add_executable(numbers2 numbers2.cpp)
+add_executable(quantity quantity.cpp)
+add_executable(src1 src1.cpp)
+add_executable(vector5count vector5count.cpp)
